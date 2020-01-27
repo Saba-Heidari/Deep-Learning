@@ -31,13 +31,15 @@ x_test = x_test.astype('float32')
 y_train = keras.utils.to_categorical(y_train, 10)
 y_test = keras.utils.to_categorical(y_test, 10)
 
+#Parameters
 weight_decay = 0.0005
 batch_size = 64
 epochs = 200
 data_augmentation = True
 
 x_shape = [32,32,3]
-# Define Model
+
+# Define VGGNet Model
 def base_model():
         model = Sequential()
         
