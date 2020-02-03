@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Face Detection on dataset loaded on google drive
+"""
+Face Detection on dataset loaded on google drive with resnet backbone
 
 """
 
