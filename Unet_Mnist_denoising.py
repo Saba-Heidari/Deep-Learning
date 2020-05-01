@@ -137,7 +137,7 @@ print(model.summary())
    
 
 
-epochs = 3
+epochs = 100
 batch_size = 200
 
 
@@ -153,5 +153,5 @@ epochs = 10
 batch_size = 2000
 
 
-model2 = unet_2(input_size = (32,32,1))
+model2 = unet(input_size = (32,32,1))
 model2.summary()
